@@ -1,38 +1,75 @@
-.App {
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(120, 31, 172);
+  color: #ffffff;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(201, 173, 233, 0.9);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(201, 173, 233, 0.5);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+
+h1 {
+  color: rgb(120, 31, 172);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {background-color: rgba(231, 205, 253, 0.788);}
+
+input {
+  width: 90%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sort-button {
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
   color: white;
+  cursor: pointer;
+
+  transition: transform 0.05s ease-out;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sort-reverse {
+  transform: rotate(180deg);
 }

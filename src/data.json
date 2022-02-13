@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "firstName": "Maria",
+        "lastName": "Mylläri",
+        "age": 26
+    },
+    {
+        "id": "2",
+        "firstName": "Elina",
+        "lastName": "Kottonen",
+        "age": 37
+    },
+    {
+        "id": "3",
+        "firstName": "Mauri",
+        "lastName": "Kunnas",
+        "age": 72
+    },
+    {
+        "id": "4",
+        "firstName": "Sheldon",
+        "lastName": "Cooper",
+        "age": 41
+    },
+    {
+        "id": "5",
+        "firstName": "Astrid",
+        "lastName": "Qvist",
+        "age": 109
+    }
+]
